@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="./js/jquery-1.12.4.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script> 
+    <script src="./js/js.js"></script>
+    <script src="./js/script.js"></script>
+    <title>Le Labo</title>
+</head>
+<body>
+    <div id="wrap">
+         <div class="header-area">
+            <div class="header-logo">
+            </div>
+            
+            <nav>
+                <ul class="menu">
+                    <li data-alt="tab1">
+                        <a href="#none">향수</a>
+                    </li>
+                    <li data-alt="tab2">
+                        <a href="#none">바디-헤어-페이스</a>
+                    </li>
+                    <li data-alt="tab3">
+                        <a href="#none">양초</a>
+                    </li>
+                    <li data-alt="tab4">
+                        <a href="#none">그루밍</a>
+                    </li>
+                    <li data-alt="tab5">
+                        <a href="#none">선물</a>
+                    </li>
+                </ul>
+
+                <ul class="icon-box">
+                    <li>
+                        <a href="#none">EN</a>
+                    </li>
+                    <li>
+                        <a href="#none">LOGIN</a>
+                    </li>
+                    <li>
+                        <a href="#none">CART</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <input type="checkbox" id="trigger">
+            <label for="trigger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="m-sub-menu">
+                <li>향수</li>
+                <li>바디 - 헤어 -페이스</li>
+                <li>양초</li>
+                <li>그루밍</li>
+                <li>선물</li>
+            </ul>
+
+            
+            
+            <!-- sub-menu-box영역 -->
+            <div class="sub-menu-box">
+                <div id="tab1" class="sub-menu">
+                    <div class="sub-menu-img">
+                        <img src="./img/sub-menu1.jpg" alt="">
+                    </div>
+                    <ul class="sub-inner">
+                        <li>더 말차26</li>
+                        <li>상탈33</li>
+                        <li>어나더13</li>
+                        <li>더 노이어29</li>
+                        <li>로즈31</li> 
+                    </ul>
+                    <ul class="sub-inner">
+                        <li>베가모트22</li>
+                        <li>베이19</li>
+                        <li>리스41</li>
+                        <li>통카25</li>
+                        <li>네롤리36</li> 
+                    </ul>
+                    <ul class="sub-inner">
+                        <li>일랑49</li>
+                        <li>플레르 도란줴27</li>
+                        <li>페츌리24</li>
+                        <li>라다넘18</li>
+                        <li>쟈스민17</li> 
+                    </ul>
+                    <ul class="sub-inner">
+                        <li>베티버46</li>
+                        <li>암브레트9</li>
+                        <li>아이리스39</li>
+                        <li>오드27</li>
+                    </ul>
+                </div>
+
+                <div id="tab2" class="sub-menu">
+                    <div class="sub-menu-img2">
+                        <img src="./img/sub-menu2.jpg" alt="">
+                    </div>
+                    <ul class="sub-inner">
+                        <li>핸드로션</li>
+                        <li>핸드워시</li>
+                        <li>핸드크림</li>
+                        <li>샤워젤</li>
+                        <li>샤워오일</li> 
+                    </ul>
+                    <ul class="sub-inner">
+                        <li>바디크림</li>
+                        <li>샴푸</li>
+                        <li>컨디셔너</li>
+                        <li>각질제거용 삼푸</li>
+                        <li>헤어마스크</li> 
+                    </ul>
+                    <ul class="sub-inner">
+                        <li>로션</li>
+                        <li>클렌징 오일</li>
+                        <li>립밤</li>
+                        <li>마스크팩</li>
+                        <li>각질제거제</li> 
+                    </ul>
+                </div>
+
+
+                <div id="tab3" class="sub-menu">
+                    <div class="sub-menu-img3">
+                        <img src="./img/sub-menu3.jpg" alt="">
+                    </div>
+                    <ul class="sub-inner">
+                        <li>상탈 26</li>
+                        <li>에센스 9</li>
+                        <li>팔로 산토 14</li>
+                        <li>칼론 17</li>
+                        <li>피그 15</li>  
+                    </ul>
+                    <ul class="sub-inner">
+                        <li>페팃 크레인 21</li>
+                        <li>케이드 26</li>
+                        <li>핀 12</li>
+                        <li>버베인 32</li>
+                        <li>세드레11</li> 
+                    </ul>
+                    <ul class="sub-inner">
+                        <li>아니스 24</li>
+                        <li>클래식 양초</li>
+                        <li>고체 양초</li>
+                        <li>라다넘18</li>
+                        <li>보티브 양초</li> 
+                    </ul>
+                </div>
+
+                <div id="tab4" class="sub-menu">
+                    <div class="sub-menu-img4">
+                        <img src="./img/sub-menu4.jpg" alt="">
+                    </div>
+                    <ul class="sub-inner">
+                        <li>데오드란트</li>
+                        <li>셰이빙크림</li>
+                        <li>왁스</li>  
+                    </ul>
+                    <ul class="sub-inner">
+                        <li>에프터쉐이브밤</li>
+                        <li>페이스로션</li>
+                        <li>비어드오일</li>
+                    </ul>
+                </div>
+
+                <div id="tab5" class="sub-menu">
+                    <div class="sub-menu-img5">
+                        <img src="./img/sub-menu5.jpg" alt="">
+                    </div>
+                    <ul class="sub-inner">
+                        <li>지금 르 라보를 선물해보세요</li>
+                        <li>E-GIFT CARD</li>
+                    </ul>
+                </div>
+
+                
+                   
+    
+            </div>
+        </div>
+
+          <div class="mask swiper mySwiper">
+            <div class="slider swiper-wrapper">
+                <div class="in-slider fi swiper-slide">
+                    <div class="sd-txt-box fi">
+                        <div class="txt-t fi">
+                        <h1>르 라보에서 <br>나만의 향수를 구입해보세요</h1>
+                        <span><a href="#none">자세히보기</a></span>
+                        </div>
+                        <h3>나만의 향수를 만들어주는 라벨링시스템</h3>
+                    </div>
+                </div>
+                <div class="in-slider se swiper-slide">
+                    <div class="sd-txt-box se">
+                        <div class="txt-t se">
+                        <h1>다 쓴 공병을 가져오면 <br> 할인된 가격으로 향수를 리필 </h1>
+                        <span><a href="#none">자세히보기</a></span>
+                        </div>
+                        <h3>르 라보만의 차별화된 리필시스템</h3>
+                    </div>
+                </div>
+                <div class="in-slider th swiper-slide">
+                    <div class="sd-txt-box th">
+                        <div class="txt-t th">
+                        <h1>르 라보만의 세안용품으로 <br> 하루를 다르게 시작해봐요 </h1>
+                        <span><a href="#none">자세히보기</a></span>
+                        </div>
+                        <h3>르 라보의 바디-헤어-페이스</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div> 
+          </div>
+
+
+          <!-- 두번째 섹션 -->
+          <div class="sec2-wrap"> 
+            <h1>Today`s scent</h1>
+                    <div class="sec2 swiper sec2Swiper">
+                        <div class="swiper-pagination"></div>
+                        <div class="sec2-slider swiper-wrapper">
+                          <div class="sec2-slide fi swiper-slide">
+                                <div class="inner fi">
+                                    <div class="inner-img">
+                                        <img src="./img/2-0.png" alt="">
+                                    </div>
+                                    <h1>Santal 33</h1>
+                                    <h3>#스파이시 향 #우디향</h3>
+                                    <h4>₩186,000</h4>
+                                </div>
+                                <div class="inner se">
+                                    <div class="inner-img">
+                                        <img src="./img/2-1.png" alt="">
+                                    </div>
+                                    <h1>BERGAMOTE 22</h1>
+                                    <h3>#시원함 #역동적임 </h3>
+                                    <h4>₩69,032</h4>
+                                </div>
+                                <div class="inner th">
+                                    <div class="inner-img">
+                                        <img src="./img/2-2.png" alt="">
+                                    </div>
+                                    <h1>BAIE 19</h1>
+                                    <h3>#비온뒤 나무 #흙냄새 </h3>
+                                    <h4>₩69,032</h4>
+                                </div>
+                                <div class="inner fo">
+                                    <div class="inner-img">
+                                        <img src="./img/2-3.png" alt="">
+                                    </div>
+                                    <h1>BAIE 19</h1>
+                                    <h3>#비온뒤 나무 #흙냄새 </h3>
+                                    <h4>₩186,000</h4>
+                                </div>
+                          </div>
+                          <div class="sec2-slide se swiper-slide">
+                                <div class="inner fi">
+                                    <div class="inner-img">
+                                        <img src="./img/2-8.jpg" alt="">
+                                    </div>
+                                    <h1>LYS 41</h1>
+                                    <h3>#아카시아 향 #고급스러움</h3>
+                                    <h4>₩186,000</h4>
+                                </div>
+                                <div class="inner se">
+                                    <div class="inner-img">
+                                        <img src="./img/2-9.jpg" alt="">
+                                    </div>
+                                    <h1>TONKA 25</h1>
+                                    <h3>#계피향 #통카빈 </h3>
+                                    <h4>₩149,000</h4>
+                                </div>
+                                <div class="inner th">
+                                    <div class="inner-img">
+                                        <img src="./img/2-10.jpg" alt="">
+                                    </div>
+                                    <h1>NEROLI 36</h1>
+                                    <h3>#플로럴 향 #우아함 </h3>
+                                    <h4>₩82,000</h4>
+                                </div>
+                                <div class="inner fo">
+                                    <div class="inner-img">
+                                        <img src="./img/2-11.jpg" alt="">
+                                    </div>
+                                    <h1>YLANG 49</h1>
+                                    <h3>#숲속을 #산책하는 느낌 </h3>
+                                    <h4>₩55,000</h4>
+                                </div>
+                        </div>
+                        <div class="sec2-slide th swiper-slide">
+                            <div class="inner fi">
+                                <div class="inner-img">
+                                    <img src="./img/2.4.jpg" alt="">
+                                </div>
+                                <h1>FLEUR D'ORANGER 27</h1>
+                                <h3>#오렌지향 #여성스러움</h3>
+                                <h4>₩82,500</h4>
+                            </div>
+                            <div class="inner se">
+                                <div class="inner-img">
+                                    <img src="./img/2-5.jpg" alt="">
+                                </div>
+                                <h1>ROSE 31</h1>
+                                <h3>#스파이시 로즈 #중성적 </h3>
+                                <h4>₩161,700</h4>
+                            </div>
+                            <div class="inner th">
+                                <div class="inner-img">
+                                    <img src="./img/2-6.jpg" alt="">
+                                </div>
+                                <h1>THÉ MATCHA 26</h1>
+                                <h3>#따듯함 #차향기 </h3>
+                                <h4>₩69,032</h4>
+                            </div>
+                            <div class="inner fo">
+                                <div class="inner-img">
+                                    <img src="./img/2-7.jpg" alt="">
+                                </div>
+                                <h1>THÉ NOIR 29</h1>
+                                <h3>#나뭇잎향 #중독적임 </h3>
+                                <h4>₩273,500</h4>
+                            </div>
+                        </div>
+                        <div class="sec2-slide fo swiper-slide">
+                            <div class="inner fi">
+                                <div class="inner-img">
+                                    <img src="./img/2-12.jpg" alt="">
+                                </div>
+                                <h1>OUD 27</h1>
+                                <h3>#아가우드향 #매력적임</h3>
+                                <h4>₩273,500</h4>
+                            </div>
+                            <div class="inner se">
+                                <div class="inner-img">
+                                    <img src="./img/2-13.jpg" alt="">
+                                </div>
+                                <h1>IRIS 39</h1>
+                                <h3>#비온뒤 맑음 #촉촉함 </h3>
+                                <h4>₩161,300</h4>
+                            </div>
+                            <div class="inner th">
+                                <div class="inner-img">
+                                    <img src="./img/2-14.jpg" alt="">
+                                </div>
+                                <h1>LABDANUM 18</h1>
+                                <h3>#부드러움 #서구적임 </h3>
+                                <h4>₩69,900</h4>
+                            </div>
+                            <div class="inner fo">
+                                <div class="inner-img">
+                                    <img src="./img/2-15.jpg" alt="">
+                                </div>
+                                <h1>PATCHOULI 24</h1>
+                                <h3>#장작타는향 #바닐라 </h3>
+                                <h4>83,000</h4>
+                            </div>
+                        </div>
+                      </div>
+                
+
+                    <!-- 두번째 섹션 박스 -->
+                        <div class="lelabo-box">
+                            <div class="box1">
+                                <a href="#nong">
+                                    <img src="./img/3-0.jpg" alt="">
+                                </a>
+                                <div class="lelabo-txt">
+                                    <h3>Best</h3>
+                                    <h4>모두가 사랑하는 <br>
+                                         르라 보의 베스트</h4>
+                                </div>
+                            </div>
+                            <div class="lelabo-inner">
+                                <div class="box2">
+                                    <a href="#none">
+                                        <img src="./img/3-1.jpg" alt="">
+                                        
+                                    </a>
+                                    <div class="lelabo-txt2">
+                                        <h3>Candle</h3>
+                                        <h4>오늘은 양초로 분위기 <br>
+                                            한 번 내보는거 어때요?</h4>
+                                    </div>
+                                </div>
+                                <div class="box3">
+                                    <div class="box4">
+                                        <a href="#none">
+                                            <img src="./img/3-2.jpg" alt="">
+                                        </a>
+                                        <div class="lelabo-txt3">
+                                            <h3>Sample</h3>
+                                            <h4>샘플도 준비되어 있어요 <br>
+                                                향 한번 맡아보실래요?</h4>
+                                        </div>
+                                    </div>
+                                    <div class="box5">
+                                        <a href="#none">
+                                            <img src="./img/3-3.jpg" alt="">
+                                        </a>
+                                        <div class="lelabo-txt4">
+                                            <h3>location</h3>
+                                            <h4>가까운 르 라보 매장을 <br>
+                                                찾아보세요</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                </div>
+            </div>
+
+            
+
+            <!-- 세번째 섹션 -->
+            
+            <div class="masking swiper mySwiper">
+                <div class="wrap swiper-wrapper">
+                  <div class="banner fi swiper-slide">
+                    <div class="banner-img">
+                        <img src="./img/4-0.jpg" alt="">
+                    </div>
+
+                    <div class="banner-txt-box">
+                        <h3>LE LABO Perfume</h3>
+                        <h1>SANTAL 33</h1>
+                        <h4>미국 서부지대의 말보로 맨에게 영감을 받아 <br>
+                            탄생한 향으로 , 은은한 연기가 피어나는 불길과도 <br>
+                            같이 매혹적입니다. 스파이시하고 레더리한 <br>
+                            머스크 노트와 스모키한 샌달우드의 결합으로 <br>
+                            완성됩니다.</h4>
+                            <span><a href="#none">구매하기</a></span>
+                    </div>
+                    <div class="banner-inner-wrap">
+                        <div class="box"><img src="./img/4-3.jpg" alt=""></div>
+                        <div class="box"><img src="./img/4-4.jpg" alt=""></div>
+                        <div class="box"><img src="./img/4-5.jpg" alt=""></div>
+                    </div>
+                  </div>
+                  <div class="banner se swiper-slide">
+                    <div class="banner-txt-box">
+                        <h3>LE LABO Perfume</h3>
+                        <h1>ROSE 31</h1>
+                        <h4>이 향수를 만든 이유는 분명합니다.  <br>
+                            로즈를 남녀 모두가 사용할 수 있도록 하는 것입니다. <br>
+                            우아한 센터블리더 로즈에 우디 노트가 더해져  <br>
+                            중성적인 매력을 지닌 특별한 스파이시 로즈 향을 <br>
+                            전달합니다.</h4>
+                            <span><a href="#none">구매하기</a></span>
+                    </div>
+                    <div class="banner-img">
+                        <img src="./img/4-1 (2).jpg" alt="">
+                    </div>
+                    <div class="banner-inner-wrap2">
+                        <div class="box"><img src="./img/4-6.jpg" alt=""></div>
+                        <div class="box"><img src="./img/4-7.jpg" alt=""></div>
+                        <div class="box"><img src="./img/4-8.jpg" alt=""></div>
+                    </div>
+                  </div>
+                  <div class="banner th swiper-slide">
+                    <div class="banner-img">
+                        <img src="./img/4-2.jpg" alt="">
+                    </div>
+    
+                    <div class="banner-txt-box">
+                        <h3>LE LABO Perfume</h3>
+                        <h1>ANOTHER 13</h1>
+                        <h4>유명 편집숍인 콜레트와의 콜라보레이션때 탄생한 <br>
+                            모던한 무드의 향으로 ,머스크 계열의 암브록스와 <br>
+                            쟈스민 그리고 모스와 엠버리한 우디 노트의 조합이  <br>
+                            경험해보지 못한 새로움을 전합니다. <br><br>
+                            
+                            <span><a href="#none">구매하기</a></span>
+                    </div>
+                    <div class="banner-inner-wrap">
+                        <div class="box"><img src="./img/4-3.jpg" alt=""></div>
+                        <div class="box"><img src="./img/4-4.jpg" alt=""></div>
+                        <div class="box"><img src="./img/4-5.jpg" alt=""></div>
+                    </div>
+                  </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+            </div>
+              
+
+
+              <!-- 네번째섹션 -->
+              <div class="intro-box">
+                <div class="top-box">
+                <h3>Bland introduction</h3>
+                <div class="intro-img">
+                    <img src="./img/Group 74 (2).jpg" alt="">
+                </div>
+                <h4>르 라보는 프랑스어로 실험실이라는 뜻입니다. <br>
+                    이름에 걸맞게 르라보가 연구하여 표현한 <br>
+                    모던하고 세련된 향들은 성별을 뛰어넘는 <br>
+                    젠더리스 니치 향수로 자리 잡고 있습니다. <br><br>
+                    르라보 향수는 비건 & 파라벤 프리상품으로 <br>
+                    민감하고 예민한 피부에도 적합히 사용할 수 있습니다.
+                </h4>
+                </div>
+                <div class="intro-img2" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="100">
+                    <img src="./img/5-0.jpg" alt="">
+                </div>
+              </div> 
+
+              <div class="intro-box se">
+                <div class="top-box m">
+                    <h3>Brand spirit</h3>
+                    <h1>르 라보의 브랜드 정신</h1>
+                    <h4>대량생산 대량 유통으로 이루어진 빅 브랜드의 향수들로 <br>
+                        더는 자신의 향을 찾지 못하는 고객들을 위해, <br>
+                        에디 로시(Eddie Roschi) 와 <br>
+                        파브리스 페노(Fabrice Penot)는 <br>
+                        진심이 가득 담긴 핸드메이드 향수를 만들고자 <br>
+                        LE LABO를 창립하게 됩니다.
+                    </h4>
+                    <span><a href="#none">자세히보기</a></span>
+                    </div>
+                <div class="intro-img3" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="100">
+                    <img src="./img/5-1.jpg" alt="">
+                </div>
+                <div class="top-box se">
+                <h3>Brand spirit</h3>
+                <h1>르 라보의 <br> 브랜드 정신</h1>
+                <h4>대량생산 대량 유통으로 이루어진 빅 브랜드의 향수들로 <br>
+                    더는 자신의 향을 찾지 못하는 고객들을 위해, <br>
+                    에디 로시(Eddie Roschi) 와 <br>
+                    파브리스 페노(Fabrice Penot)는 <br>
+                    진심이 가득 담긴 핸드메이드 향수를 만들고자 <br>
+                    LE LABO를 창립하게 됩니다.
+                </h4>
+                <span><a href="#none">자세히보기</a></span>
+                </div>
+              </div>
+
+              <div class="intro-box th">
+                <div class="top-box th">
+                <h3>Labeling system</h3>
+                <h1>BUY YOUR OWN PERFUME</h1>
+                <h4>르 라보는 소비자가 원하는 문구와 구매한 장소 등의 정보를  <br>
+                    향수 라벨에 프린팅 해주는 라벨링 서비스를 제공합니다 <br>
+                    자신만의 향수를 지금 르 라보에서 구매하세요    
+                </h4>
+                <span><a href="#none">구매하러가기</a></span>
+                </div>
+                <div class="intro-img5" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100">
+                    <img src="./img/6-0.jpg" alt="">
+                </div>
+                </div>
+    <!-- 푸터영역 -->
+
+    <footer>
+        <div class="footer-wrap">
+            <div class="footer-wrap-t">
+                <div class="footer-long-box fi">
+                <!-- <span><a href="#none">이메일주소 </a></span> -->
+                <input type="text" name="이메일" id="emailbox" placeholder="이메일주소">
+                <div class="check">
+                <input type="checkbox" id="check">
+                <h1>르라보 제품 , 서비스 ,  행사 , 문화적 관심사 등 다양한 소식을  받아볼 수 있도록 구독하세요 </h1>
+                </div>
+                </div>
+                <div class="footer-box fi">
+                <h1>주문 및 지원</h1>
+                <h3>문의하기</h3>
+                <h3>자주 묻는 질문</h3>
+                <h3>배송</h3>
+                <h3>반품</h3>
+                <h3>배송 조회하기</h3>
+                <h3>주문 내역</h3>
+                <h3>이용 약관</h3>
+                </div>
+                <div class="footer-box se">
+                <h1>서비스</h1>
+                <h3>기업체구매</h3>
+                <h3>페이셜 이포인트먼트</h3>
+                <h3>1:1 채팅상담</h3>
+                </div>
+                <div class="footer-box th">
+                <h1>위치 기본 설정</h1>
+                <h3>배송: <br>
+                    대한민국</h3>
+                <h3>언어: <br>
+                    한국어</h3>
+                </div>
+            </div>
+            <div class="footer-wrap-b">
+                <div class="footer-long-box se">
+                <span>지속가능성</span>
+                <h1>르라보 제품 , 서비스 ,  행사 , 문화적 관심사 등 다양한 소식을  받아볼 수 있도록 구독하세요 </h1>
+                </div>
+                <div class="footer-box fi">
+                <h1>소개</h1>
+                <h3>브랜드 스토리</h3>
+                <h3>르라보 재단</h3>
+                <h3>채용</h3>
+                <h3>개인정보처리방침</h3>
+                </div>
+                <div class="footer-box se">
+                <h1>소셜</h1>
+                <h3>Instagram</h3>
+                <h3>Twitter </h3>
+                <h3>LinkedIn </h3>
+                <h3>Kakao Plus Friend</h3>
+                </div>
+                <div class="footer-box th">
+                <h1>주문 및 지원</h1>
+                <h3>서울 강남구 테헤란로 517 <br>
+                    지번삼성동 159-7</h3>
+                </div>
+            </div>
+
+            <span class="last"><a href="#none">ⓒ Lelabo</a></span>
+
+        </div>
+    </footer>
+</body>
+</html>
